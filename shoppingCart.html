@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="shoppingcart.css">
+</head>
+<body>
+    <div class="container">
+        <header class ="flex-1">
+<div class="left" style="font-weight: 1000; font-size: 20px;"><b>SC</b> <br><span style="margin-left: 10px;"> Super Courses</span></div>
+<div class="right"> <i class="fa-solid fa-cart-shopping" ></i> Your Cart</div>
+
+        </header>
+        <div class="backgroundColor">
+            <h2 >Learn stuffs with our awesome courses!</h2>
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+       
+        <table class ='list'>
+            <thead>
+                <tr>
+                    <th >Image</th>
+                    <th class = 'headone'>Name</th>
+
+                    <th class ='headtwo'>Price</th>
+
+                </tr>
+            </thead>
+        
+          <tbody class="cart-items">
+           
+     
+          </tbody>
+         
+          <tr style='visibility: hidden;height: 0px; background-color: black;'><td colspan="3">
+            <button class="checkout">CheckOut</button>
+         </td>
+        </tr>
+        <tr><td colspan = '3 'class="total">Total: $0</td></tr>
+        <tr><td colspan="3">
+            <button class="checkout">CheckOut</button>
+         </td>
+        </tr>
+        <tr><td colspan="3">
+<button class="clear-cart">ClearCart</button>
+         </td>
+        </tr>
+        
+        </table>
+        
+       
+        <div class="cartlogue">
+            <h3 style="text-align: center; " class='heading '>Online Courses</h3>
+            <div class="grid4">
+                <div class="card" card-number ='1'>
+                    <img src="./pictures/image-1.jpg" alt="">
+                    <h4 class ='description'>Web Design for beginners</h4>
+                    <span class="name">Maria. Perna</span>
+                    <br><span class="price">$200</span><br>
+                    <button class="add">Add to Cart</button>
+                </div>
+                <div class="card" card-number ='2'>
+                    <img src="./pictures/image-2.jpg" alt="">
+                    <h4 class ='description'>Learn to cook Italian food</h4>
+                    <span class="name">Mario the chef</span>
+                    <br><span class="price">$100</span><br>
+                    <button class="add">Add to Cart</button>
+                </div>
+                <div class="card" card-number ='3'>
+                    <img src="./pictures/image-3.jpg" alt="">
+                    <h4 class ='description'>Learn Guitar</h4>
+                    <span class="name">Joni Mitchell</span>
+                    <br><span class="price">$150</span><br>
+                    <button class="add">Add to Cart</button>
+                </div>
+                <div class="card" card-number ='4'>
+                    <img src="./pictures/image-4.jpg" alt="">
+                    <h4 class ='description'>Gardening 101</h4>
+                    <span class="name">Jane Smith</span>
+                    <br><span class="price">$50</span><br>
+                    <button class="add">Add to Cart</button>
+                </div>
+                <div class="card" card-number ='5'>
+                    <img src="./pictures/image-5.jpg" alt="">
+                    <h4 class ='description'>Cook a Home-Made Cake</h4>
+                    <span class="name">MAntonietta Perna</span>
+                    <br><span class="price">$100</span><br>
+                    <button class="add">Add to Cart</button>
+                </div>
+                <div class="card" card-number ='6'>
+                    <img src="./pictures/image-6.jpg" alt="">
+                    <h4 class ='description'>Modern Javascript</h4>
+                    <span class="name">Maria. Perna</span>
+                    <br><span class="price">$300</span><br>
+                    <button class="add">Add to Cart</button>
+                </div>
+                <div class="card" card-number ='7'>
+                    <img src="./pictures/image-7.jpg" alt="">
+                    <h4 class ='description'>Build Layouts with Css Grid</h4>
+                    <span class="name">John Doe</span>
+                    <br><span class="price">$200</span><br>
+                    <button class="add">Add to Cart</button>
+                </div>
+            </div>
+           
+            
+          
+        </div>
+    </div>
+    <script src="shoppingCart.js"></script>
+</body>
+</html>
